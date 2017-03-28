@@ -1,0 +1,237 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/mtkj.css" />
+		<link rel="stylesheet" href="css/iconfont.css" />
+
+
+	</head>
+	
+	<style>
+		.mui-slider {
+			height: 200px;
+		}
+		
+		.mui-control-item {
+			padding-top: 16px;
+		}
+		
+		.box-1 {
+			background: #FFFFFF;
+			overflow: hidden;
+			/*border-bottom: 3px solid #F2F2F2;*/
+		}
+		
+		.box-a {
+			background: #FFFFFF;
+			width: 25%;
+			float: left;
+			text-align: center;
+			padding-top: 16px;
+		}
+		
+		.box-a p {
+			margin: 5px;
+			color: #000002;
+			font-size: 13px;
+		}
+		
+		.box-a span {
+			display: inline-block;
+			height: 50px;
+			width: 50px;
+			line-height: 50px;
+			border-radius: 10px;
+			color: #FFFFFF;
+		}
+		
+		.icon-583danxianzoulu {
+			background: red;
+		}
+		
+		.jiaoyou {
+			background: #FFB93A;
+		}
+		
+		.zou {
+			background: #04ADF2;
+		}
+		
+		.qixing {
+			background: #2FC3FF;
+		}
+		
+		.zuqiu {
+			background: #9DD924;
+		}
+		
+		.lanqiu {
+			background: #FF7016;
+		}
+		
+		.yumao {
+			background: #1DD5A1;
+		}
+		
+		.jianshen {
+			background: #FF703C;
+		}
+		
+		.qipai {
+			background: #FDD11D;
+		}
+		
+		.pingpang {
+			background: #FD4D63;
+		}
+		
+		.qita {
+			background: #0BD76D;
+		}
+	</style>
+
+	<body>
+		<header class="mui-bar mui-bar-nav ">
+<!--			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left public-color"></a>
+-->			<h1 class="mui-title">首页
+<!--				<input type="search" class="mui-input-clear" placeholder="搜索感兴趣的话题"/>
+-->			</h1>
+		</header>
+
+		<div class="mui-content">
+
+			<div id="sy-head" class="mui-slider">
+				<div class="mui-slider-group  mui-slider-loop">
+					<div class="mui-slider-item">
+						<a><img src="img/haed5.jpg" /></a>
+					</div>
+					<div class="mui-slider-item" id="one">
+						<a href="#"><img src="img/haed1.jpg" /></a>
+					</div>
+					<div class="mui-slider-item" id="tow">
+						<a href="#"><img src="img/haed2.jpg" /></a>
+					</div>
+					<div class="mui-slider-item" id="three">
+						<a href="#"><img src="img/haed3.jpg" /></a>
+					</div>
+					<div class="mui-slider-item" id="four">
+						<a href="#"><img src="img/haed4.jpg" /></a>
+					</div>
+					<div class="mui-slider-item" id="five">
+						<a href="#"><img src="img/haed5.jpg" /></a>
+					</div>
+
+					<div class="mui-slider-item mui-slider-item-duplicate">
+						<a><img src="img/huodong.jpg" /></a>
+					</div>
+				</div>
+				<div class="mui-slider-indicator">
+					<div class="mui-indicator mui-active"></div>
+					<div class="mui-indicator"></div>
+					<div class="mui-indicator"></div>
+					<div class="mui-indicator"></div>
+					<div class="mui-indicator"></div>
+				</div>
+			</div>
+
+			<div class="box-1">
+				<div class="box-a" id="tab-webview-subpage-view2.html" onclick="clicked(this.id);">
+					<span class="mui-icon iconfont icon-jiaoyou jiaoyou"></span>
+					<p>体育交友</p>
+				</div>
+				<div class="box-a" id="html/tyxl.html" onclick="clicked(this.id);">
+					<span class="mui-icon iconfont icon-peixun zou"></span>
+					<p>体育训练</p>
+				</div>
+				<div class="box-a"id="html/tyzx.html" onclick="clicked(this.id);">
+					<span class="mui-icon iconfont icon-zixunzhuanhuan qixing"></span>
+					</span>
+					<p>体育资讯</p>
+				</div>
+				<div class="box-a" id="html/tyjc.html" onclick="clicked(this.id);">
+					<span class="mui-icon iconfont icon-jingcai zuqiu"></span>
+					<p>体育竞猜</p>
+				</div>
+				<div class="box-a" id="html/cgfw.html" onclick="clicked(this.id);">
+					<span class="mui-icon iconfont icon-changguan  lanqiu"></span>
+					<p>场馆服务</p>
+				</div>
+				<div class="box-a" id="html/xsfw.html" onclick="clicked(this.id);">
+					<span class="mui-icon  mui-icon-person yumao"></span>
+					<p>线上服务</p>
+				</div>
+				<div class="box-a" id="html/sshd.html" onclick="clicked(this.id);">
+					<span class="mui-icon iconfont icon-huodong jianshen"></span>
+					<p>赛事活动</p>
+				</div>
+				<div class="box-a" id="html/tousu.html" onclick="clicked(this.id);">
+					<span class="mui-icon mui-icon-chatboxes qipai"></span>
+					</span>
+					<p>意见反馈</p>
+				</div>
+				
+						<div class="box-a" id="tab-webview-subpage-view2.html" onclick="clicked(this.id);">
+					<span class="mui-icon iconfont icon-jiaoyou jiaoyou"></span>
+					<p>体育交友</p>
+				</div>
+				<div class="box-a" id="html/tyxl.html" onclick="clicked(this.id);">
+					<span class="mui-icon iconfont icon-peixun zou"></span>
+					<p>体育训练</p>
+				</div>
+				<div class="box-a"id="html/tyzx.html" onclick="clicked(this.id);">
+					<span class="mui-icon iconfont icon-zixunzhuanhuan qixing"></span>
+					</span>
+					<p>体育资讯</p>
+				</div>
+				<div class="box-a" id="html/tyjc.html" onclick="clicked(this.id);">
+					<span class="mui-icon iconfont icon-jingcai zuqiu"></span>
+					<p>体育竞猜</p>
+				</div>
+				<div class="box-a" id="html/cgfw.html" onclick="clicked(this.id);">
+					<span class="mui-icon iconfont icon-changguan  lanqiu"></span>
+					<p>场馆服务</p>
+				</div>
+				<div class="box-a" id="html/xsfw.html" onclick="clicked(this.id);">
+					<span class="mui-icon  mui-icon-person yumao"></span>
+					<p>线上服务</p>
+				</div>
+				<div class="box-a" id="html/sshd.html" onclick="clicked(this.id);">
+					<span class="mui-icon iconfont icon-huodong jianshen"></span>
+					<p>赛事活动</p>
+				</div>
+				<div class="box-a" id="html/tousu.html" onclick="clicked(this.id);">
+					<span class="mui-icon mui-icon-chatboxes qipai"></span>
+					</span>
+					<p>意见反馈</p>
+				</div>
+
+			</div>
+			<h5 style="background-color:#FFFFFF;padding: 8px;">今日头天</h5>
+			<div class="info-content">
+				<ul class="mui-table-view">
+					<li>
+						<img src="img/huodong (1).jpg" style="width: 100%;" />
+					</li>
+					<li> <img src="img/huodong (6).jpg" style="width: 100%;" /></li>
+					</ul>
+
+			</div>
+		</div>
+
+	</body>
+	<script type="text/javascript" src="js/mui.min.js" ></script>
+	<script type="text/javascript" src="js/mtkj.js" ></script>
+
+	<script type="text/javascript">
+		mui.init();
+		mui.plusReady(function() {
+
+		});
+	</script>
+
+</html>
