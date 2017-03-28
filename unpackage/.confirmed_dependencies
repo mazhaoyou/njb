@@ -16,7 +16,8 @@
 			"tab-webview-subpage-view3.html",
 			"tab-webview-subpage-view4.html",
 			"tab-webview-subpage-view2.html",
-			"tab-webview-subpage-view1.html"
+			"tab-webview-subpage-view1.html",
+			"html/menu_center.html"
 		]
 	},
 	"tab-webview-subpage-about.html": {
@@ -33,13 +34,15 @@
 	},
 	"tab-webview-subpage-view3.html": {
 		"resources": [
-			"js/mui.js"
+			"js/mui.js",
+			"css/mui.min.css"
 		],
 		"refer": []
 	},
 	"tab-webview-subpage-view2.html": {
 		"resources": [
-			"js/mui.min.js"
+			"js/mui.min.js",
+			"css/mui.min.css"
 		],
 		"refer": []
 	},
@@ -47,8 +50,25 @@
 		"resources": [
 			"js/mui.min.js",
 			"css/mui.min.css",
-			"fonts/mui.ttf"
+			"fonts/mui.ttf",
+			"img/haed4.jpg",
+			"img/haed3.jpg",
+			"img/haed1.jpg",
+			"img/haed2.jpg",
+			"img/haed5.jpg"
 		],
 		"refer": []
+	},
+	"tab-webview-subpage-view4.html": {
+		"resources": [
+			"css/mui.min.css"
+		]
+	},
+	"html/menu_center.html": {
+		"resources": [
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css"
+		]
 	}
 }

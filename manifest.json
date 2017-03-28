@@ -207,7 +207,8 @@
 					"tab-webview-subpage-contact.html",
 					"tab-webview-subpage-view3.html",
 					"tab-webview-subpage-view4.html",
-					"tab-webview-subpage-view2.html"
+					"tab-webview-subpage-view2.html",
+					"html/menu_center.html"
 				],
 				"priority": 0
 			},
@@ -227,14 +228,16 @@
 			},
 			"tab-webview-subpage-view3.html": {
 				"resources": [
-					"js/mui.js"
+					"js/mui.js",
+					"css/mui.min.css"
 				],
 				"refer": [],
 				"priority": 0
 			},
 			"tab-webview-subpage-view2.html": {
 				"resources": [
-					"js/mui.min.js"
+					"js/mui.min.js",
+					"css/mui.min.css"
 				],
 				"refer": [],
 				"priority": 0
@@ -243,7 +246,28 @@
 				"resources": [
 					"js/mui.min.js",
 					"css/mui.min.css",
-					"fonts/mui.ttf"
+					"fonts/mui.ttf",
+					"img/haed4.jpg",
+					"img/haed3.jpg",
+					"img/haed1.jpg",
+					"img/haed2.jpg",
+					"img/haed5.jpg"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"tab-webview-subpage-view4.html": {
+				"resources": [
+					"css/mui.min.css"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"html/menu_center.html": {
+				"resources": [
+					"js/mui.min.js",
+					"fonts/mui.ttf",
+					"css/mui.min.css"
 				],
 				"refer": [],
 				"priority": 0
